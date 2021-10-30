@@ -1,0 +1,22 @@
+{
+    "name": "d.panfilov/stringchecker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Panfilov",
+            "email": "d.panfilov@crpt.ru"
+        }
+    ],
+    "require": {
+        "d.panfilov/library": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Package\\" : "vendor/d.panfilov/library/src/",
+            "Cli\\" : "src/"
+        }
+    }
+}
+
+

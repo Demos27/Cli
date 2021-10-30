@@ -1,8 +1,11 @@
 <?php
 
-namespace code;
+namespace Cli;
 
-include_once '../library/src/code/StringChecker.php';
+require_once '../vendor/autoload.php';
+
+use Checker\StringChecker;
+
 $filePath = (string)$argv[1];
 $debugMode = (int)$argv[2];
 $handle = fopen($filePath, "r");

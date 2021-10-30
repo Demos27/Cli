@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "938adbabbc29ad33845a042cee0d56bd",
+    "packages": [
+        {
+            "name": "d.panfilov/library",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Demos27/hw1.git",
+                "reference": "a092624ea43c40122f70883681afb3bdba5069fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Demos27/hw1/zipball/a092624ea43c40122f70883681afb3bdba5069fb",
+                "reference": "a092624ea43c40122f70883681afb3bdba5069fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Checker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Panfilov",
+                    "email": "d.panfilov@crpt.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Demos27/hw1/issues",
+                "source": "https://github.com/Demos27/hw1/tree/main"
+            },
+            "time": "2021-10-30T15:38:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "d.panfilov/library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
