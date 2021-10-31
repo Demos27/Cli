@@ -12,13 +12,13 @@ $handle = fopen($filePath, "r");
 if ($handle) {
     while (($line = fgets($handle)) !== false) {
         try {
-        $checker = new StringChecker($line, $debugMode);
-        $checkResult = $checker->stringCheck();
-        if ($checkResult) {
-            echo " String: $line is correct!\n";
-        } else {
-            echo " String: $line has mistakes!\n";
-        }
+            $checker = new StringChecker($line, $debugMode);
+            $checkResult = $checker->stringCheck();
+            if ($checkResult) {
+                echo " String: $line is correct!\n";
+            } else {
+                echo " String: $line has mistakes!\n";
+            }
         } catch (\Exception $e) {
             echo $e->getMessage(), "\n";
         }
